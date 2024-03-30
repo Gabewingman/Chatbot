@@ -2,30 +2,38 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background: linear-gradient(to top, wheat, black);
 }
 .container {
     max-width: 400px;
+    max-height: 200px;
     margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
+    padding: 400px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
+    background: url(https://theminimalistvegan.com/wp-content/uploads/2024/01/Valley-Minimalist-Wallpaper-img22.jpg);
+    background-size: 100% 100%;
+    position: relative;
 }
 .chat-box {
     overflow-y: auto;
     max-height: 300px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    padding-top: 120%;
+    background-color: wheat;
 }
 input[type="text"] {
-    width: calc(100% - 80px);
+    width: calc(95%);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 input[type="button"] {
     padding: 10px 15px;
