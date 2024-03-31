@@ -7,14 +7,13 @@ body {
 .container {
     max-width: 400px;
     max-height: 200px;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 400px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-top: 30px;
     background: url(https://theminimalistvegan.com/wp-content/uploads/2024/01/Valley-Minimalist-Wallpaper-img22.jpg);
     background-size: 100% 100%;
-    position: relative;
 }
 .chat-box {
     overflow-y: auto;
@@ -23,7 +22,7 @@ body {
     border: 1px solid;
     border-radius: 5px;
     margin-bottom: 8px;
-    padding-top: 120%;
+    padding-top: 110%;
     background-color: wheat;
 }
 input[type="text"] {
